@@ -1,0 +1,65 @@
+/*
+An ISBN ( International Standard Book Number) is a ten digit code which 
+uniquely identifies a book. The first nine digits represent the Group, 
+Publisher and Title of the book and the last digit is used to check 
+whether ISBN is correct or not. Each of the first nine digits of the 
+code can take a value between 0 and 9. 
+
+Sometimes it is necessary to make the last digit equal to ten; this is done 
+by writing the last digit of the code as X. 
+
+To verify an ISBN, calculate 10 times the first digit, plus 9 times the 
+second digit, plus 8 times the third and so on until we add 1 time the 
+last digit. 
+
+If the final number leaves no remainder when divided by 11, the code is a valid ISBN.
+
+For example:
+
+02011003311 = 10*0 + 9*2 + 8*0 + 7*1 + 6*1 + 5*0 + 4*3 + 3*3 + 2*1 + 1*1 = 55
+Since 55 leaves no remainder when divisible by 11, hence it is a valid ISBN.
+
+Design a program to accept a ten digit code from the user. For an invalid input, 
+display an appropriate message. Verify the code for its validity in the format 
+specified below:
+
+Test your program with sample data and some random data.
+
+Example 1
+INPUT CODE : 0201530821
+OUTPUT : SUM = 99
+LEAVES NO REMAINDER – VALID ISBN CODE
+
+Example 2
+INPUT CODE : 035680324
+OUTPUT : INVALID INPUT
+
+Example 3
+INPUT CODE : 0231428031
+OUTPUT : SUM = 122
+LEAVES REMAINDER – INVALID ISBN CODE
+*/
+import java.util.*;
+public class ISBN {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first 9 digits of the ISBN");
+        String isbn = sc.next();
+        int sum = 0;
+        if(isbn.length() == 9) {
+            for (int i = 9; i > 0; i--) {
+                char ch = isbn.charAt(9 - i);
+                int d = 0;
+                if(Character.isDigit(ch))
+                d = (int)(ch - 48);
+                else System.out.println("Invalid ISBN Code.");
+                
+                sum += (i + 1) * d;
+            }
+            isbn += sum % 11;
+            System.out.print("ISBN: " + isbn);
+        }
+        else System.out.println("Invalid Input.");
+        sc.close();
+    }
+}

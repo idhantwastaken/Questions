@@ -1,0 +1,350 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ISBN",
+            "request": "launch",
+            "mainClass": "ISBN",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Keypad",
+            "request": "launch",
+            "mainClass": "Keypad",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "XOREncryption",
+            "request": "launch",
+            "mainClass": "XOREncryption",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "SortWords",
+            "request": "launch",
+            "mainClass": "SortWords",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Frequency",
+            "request": "launch",
+            "mainClass": "Frequency",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "ReadDemo",
+            "request": "launch",
+            "mainClass": "ReadDemo",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Append",
+            "request": "launch",
+            "mainClass": "Append",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "CreateDemo",
+            "request": "launch",
+            "mainClass": "CreateDemo",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "ArrayFilling",
+            "request": "launch",
+            "mainClass": "ArrayFilling",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "WonderSquareFilling",
+            "request": "launch",
+            "mainClass": "WonderSquareFilling",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "CyclicPrime",
+            "request": "launch",
+            "mainClass": "CyclicPrime",
+            "projectName": "11-CTS_1e6dedfc"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "11-CTS_1e6dedfc"
+        },
+        {
+            "type": "java",
+            "name": "NearestVowel",
+            "request": "launch",
+            "mainClass": "NearestVowel",
+            "projectName": "11-CTS_1e6dedfc"
+        },
+        {
+            "type": "java",
+            "name": "MatrixBorderSort",
+            "request": "launch",
+            "mainClass": "MatrixBorderSort",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "SaddlePoint_Working",
+            "request": "launch",
+            "mainClass": "SaddlePoint_Working",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "SaddlePoint",
+            "request": "launch",
+            "mainClass": "SaddlePoint",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BaseConversion",
+            "request": "launch",
+            "mainClass": "BaseConversion",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Cartoon",
+            "request": "launch",
+            "mainClass": "Cartoon",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "CodeValidation",
+            "request": "launch",
+            "mainClass": "CodeValidation",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Cyclic",
+            "request": "launch",
+            "mainClass": "Cyclic",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciRecursive",
+            "request": "launch",
+            "mainClass": "FibonacciRecursive",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "FloatToWord",
+            "request": "launch",
+            "mainClass": "FloatToWord",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "FormattedOutput",
+            "request": "launch",
+            "mainClass": "FormattedOutput",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Graph",
+            "request": "launch",
+            "mainClass": "Graph",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Introduction2D",
+            "request": "launch",
+            "mainClass": "Introduction2D",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "LCMHCF",
+            "request": "launch",
+            "mainClass": "LCMHCF",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Lucky_No",
+            "request": "launch",
+            "mainClass": "Lucky_No",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Minesweeper",
+            "request": "launch",
+            "mainClass": "Minesweeper",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "NumberToWords",
+            "request": "launch",
+            "mainClass": "NumberToWords",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Pangram",
+            "request": "launch",
+            "mainClass": "Pangram",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Pattern",
+            "request": "launch",
+            "mainClass": "Pattern",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Power",
+            "request": "launch",
+            "mainClass": "Power",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Roman",
+            "request": "launch",
+            "mainClass": "Roman",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "SecretMessage",
+            "request": "launch",
+            "mainClass": "SecretMessage",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Sine",
+            "request": "launch",
+            "mainClass": "Sine",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "SineGraph",
+            "request": "launch",
+            "mainClass": "SineGraph",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "SortedTest",
+            "request": "launch",
+            "mainClass": "SortedTest",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "SpecialNumber",
+            "request": "launch",
+            "mainClass": "SpecialNumber",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "SquareRoot",
+            "request": "launch",
+            "mainClass": "SquareRoot",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "TimeInWords",
+            "request": "launch",
+            "mainClass": "TimeInWords",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "Trip",
+            "request": "launch",
+            "mainClass": "Trip",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "UniqueNumbers",
+            "request": "launch",
+            "mainClass": "UniqueNumbers",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "VerticalBanner",
+            "request": "launch",
+            "mainClass": "VerticalBanner",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "VowvelsAndConsonants",
+            "request": "launch",
+            "mainClass": "VowvelsAndConsonants",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "ZaggedArray",
+            "request": "launch",
+            "mainClass": "ZaggedArray",
+            "projectName": "11-CTS_b9dbc4d4"
+        },
+        {
+            "type": "java",
+            "name": "ssf",
+            "request": "launch",
+            "mainClass": "ssf",
+            "projectName": "11-CTS_b9dbc4d4"
+        }
+    ]
+}
