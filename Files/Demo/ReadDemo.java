@@ -5,7 +5,7 @@ public class ReadDemo {
             FileReader fr = new FileReader("test.txt");
             int ch;
             while((ch=fr.read())!=-1){
-                System.out.print((char)ch);
+                System.out.print(ch);
             }
             System.out.println();
             fr.close();
