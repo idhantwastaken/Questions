@@ -14,9 +14,6 @@ public class Adder {
     }
 
     void add(Adder X, Adder Y) {
-        // this.a[0] = X.a[0] + Y.a[0];
-        // this.a[1] = X.a[1] + Y.a[1];
-
         this.a[0] = (X.a[0] + Y.a[0]) + ((X.a[1] + Y.a[1]) / 60);
         this.a[1] = (X.a[1] + Y.a[1]) % 60;
     }
