@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Adder",
+            "request": "launch",
+            "mainClass": "Adder",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "EqMat",
+            "request": "launch",
+            "mainClass": "EqMat",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
             "name": "XOREncryption",
             "request": "launch",
             "mainClass": "XOREncryption",
