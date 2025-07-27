@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "XOREncryption",
+            "request": "launch",
+            "mainClass": "XOREncryption",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "Perfect",
+            "request": "launch",
+            "mainClass": "Perfect",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "Vampire",
+            "request": "launch",
+            "mainClass": "Vampire",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "ReadDemo",
+            "request": "launch",
+            "mainClass": "ReadDemo",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "CreateDemo",
+            "request": "launch",
+            "mainClass": "CreateDemo",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicatesString",
+            "request": "launch",
+            "mainClass": "RemoveDuplicatesString",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
             "name": "ISBN",
             "request": "launch",
             "mainClass": "ISBN",
