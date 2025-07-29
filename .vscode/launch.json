@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Merger",
+            "request": "launch",
+            "mainClass": "Merger",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "Shift",
+            "request": "launch",
+            "mainClass": "Shift",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "Pattern",
+            "request": "launch",
+            "mainClass": "Pattern",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "Cyclic",
+            "request": "launch",
+            "mainClass": "Cyclic",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
             "name": "Adder",
             "request": "launch",
             "mainClass": "Adder",
