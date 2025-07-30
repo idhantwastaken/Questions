@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Matrix",
+            "request": "launch",
+            "mainClass": "Matrix",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "ssf",
+            "request": "launch",
+            "mainClass": "ssf",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "Mixer",
+            "request": "launch",
+            "mainClass": "Mixer",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
             "name": "Merger",
             "request": "launch",
             "mainClass": "Merger",
