@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Combine",
+            "request": "launch",
+            "mainClass": "Combine",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
             "name": "Matrix",
             "request": "launch",
             "mainClass": "Matrix",
