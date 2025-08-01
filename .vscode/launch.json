@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OddEven",
+            "request": "launch",
+            "mainClass": "OddEven",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
             "name": "Combine",
             "request": "launch",
             "mainClass": "Combine",
