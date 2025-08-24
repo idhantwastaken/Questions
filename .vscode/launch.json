@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lucky_No",
+            "request": "launch",
+            "mainClass": "Lucky_No",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "Append",
+            "request": "launch",
+            "mainClass": "Append",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "Invoice",
+            "request": "launch",
+            "mainClass": "Invoice",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "Binary",
+            "request": "launch",
+            "mainClass": "Binary",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "Read",
+            "request": "launch",
+            "mainClass": "Read",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
+            "name": "File",
+            "request": "launch",
+            "mainClass": "File",
+            "projectName": "Questions_37f77932"
+        },
+        {
+            "type": "java",
             "name": "OddEven",
             "request": "launch",
             "mainClass": "OddEven",
