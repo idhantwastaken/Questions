@@ -1,22 +1,26 @@
+import java.util.*;
 public class Perfect {
+    int num;        // Declaring Data Members
 
-//no recursion
-    public static boolean isPerfect(int n) {
-        if (n <= 0) return false; // Perfect numbers are positive integers
-        int sum = 0;
-        for (int i = 1; i <= n / 2; i++) {
-            if (n % i == 0) {
-                sum += i;
-            }
-        }
-        return sum == n;
+    Perfect(int n) {num = n;}       //Param Constructor
+    
+    int sumfact(int i) {        //func to calc. sum of prime factor
+        if(i > num / 2) return 0;
+        if(num % i == 0) return i + sumfact(++i);
+        return sumfact(++i);
     }
+
+    void isPerf() {     //func to check if num is a perfect no.
+        if(sumfact(1) == num) System.out.println("P");          //condition
+        else System.out.println("!P");
+    }
+
     public static void main(String[] args) {
-        int n = 33550336; // Example number
-        if (isPerfect(n)) {
-            System.out.println(n + " is a perfect number.");
-        } else {
-            System.out.println(n + " is not a perfect number.");
-        }
+        Scanner sc = new Scanner(System.in);
+        System.out.println("N");
+        Perfect ob = new Perfect(sc.nextInt());
+        ob.isPerf();
+        sc.close();
     }
+
 }
